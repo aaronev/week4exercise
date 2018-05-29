@@ -55,5 +55,13 @@ footer {
 }
 
 @media (min-width: 1500px) {
-	/*HINT: Be sure to refer to the "IronGiantScreenShot_LargeMonitor" image for reference on what should change!*/
+	#left {
+    border: solid;
+    width: 100%;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+  }
 }
