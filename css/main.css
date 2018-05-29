@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+}
+
+/*h1 {
+  opacity: 0;
+}*/
+
+.box {
+  display: inline-block;
+  border: solid;
+  width: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.container {
+  width: 100px;
+  height: 200px;
+  background-color: green;
+}
+
+@media(min-width: 1000px) {
+  div {
+    width: 100%;
+  }
+}
+
+@media(max-width: 599px) {
+  .none {
+    display: none;
+  }
+}
