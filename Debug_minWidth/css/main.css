@@ -26,11 +26,34 @@ footer {
 }
 
 @media (min-width: 520px) {
-	/*HINT: Be sure to refer to the "IronGiantScreenShot_Tablet" image for reference on what should change!*/
+	#top h1 {
+    font-size: 50px;
+  }
 }
+
 @media (min-width: 768px) {
-	/*HINT: Be sure to refer to the "IronGiantScreenShot_Laptop" image for reference on what should change!*/
+  #left {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+	#left img {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+
+  #right {
+    text-align: center;
+  }
+
+  #right p {
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+  }
 }
+
 @media (min-width: 1500px) {
 	/*HINT: Be sure to refer to the "IronGiantScreenShot_LargeMonitor" image for reference on what should change!*/
 }
