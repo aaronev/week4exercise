@@ -32,7 +32,15 @@ footer {
 }
 
 @media (max-width: 768px) {
-	/*HINT: Be sure to refer to the "IronGiantScreenShot_Tablet" image for reference on what should change!*/
+  #left {
+    text-align: center;
+    margin: 0 auto;
+    border: solid;
+  }
+
+  #left img {
+    border: solid;
+  }
 }
 @media (max-width: 520px) {
 	/*HINT: Be sure to refer to the "IronGiantScreenShot_Mobile" image for reference on what should change!*/
